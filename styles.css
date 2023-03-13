@@ -3,10 +3,10 @@
     padding : 0;
 }
 body {
-    position : relative;
     height : 100svh;
     width : 100%;
     overflow: hidden;
+    position : relative;
 }
 .background-image {
     position : absolute;
@@ -14,8 +14,8 @@ body {
     background : url(images/background.png) no-repeat;
     animation : backgroundAnimation 4s ease-in-out backwards;
     background-size : cover;
-    height : 100%;
-    width : 100%;
+    height : 120%;
+    width: 120%
 }
 .grid {
     height : 100%;
@@ -288,12 +288,13 @@ img:hover {
         margin-right : 20px;
     }
     #motivate {
-        margin-right : 7px;
+        margin-right : 35px;
         margin-bottom : 20px;
         font-size : 20px;
     }
     #transform {
-        margin-left : 20px;
+        margin-left : 8=5px;
+        font-size: 20px;
     }
     #fruitful {
         font-size : 20px;
@@ -309,4 +310,37 @@ img:hover {
         background-color : #61a5c3;
         color : #fff;
     }
+}
+@media screen and (max-height: 320px){
+    .grid{
+        position: relative;
+        width: 105%;
+        height: 105%;
+    }
+    img{
+        height: 65px;
+        width: auto;
+    }
+    #card-wrapper{
+        background-color : #fff;
+        height: 140px;
+    }
+    .s1{
+        right: 0%;
+    }
+    .s2{
+        background-color:aquamarine;
+        right: 0%;
+        display: none;
+    }
+    .s3{
+        display: none;
+        background-color:rgb(127, 127, 255);
+        left: 0%;
+    }
+    .s4{
+        background-color:rgb(85, 86, 86);
+        left: 0%;
+    }
+
 }
