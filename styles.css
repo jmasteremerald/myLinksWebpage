@@ -329,17 +329,12 @@ img:hover {
         right: 0%;
     }
     .s2{
-        background-color:aquamarine;
-        right: 0%;
         display: none;
     }
     .s3{
         display: none;
-        background-color:rgb(127, 127, 255);
-        left: 0%;
     }
     .s4{
-        background-color:rgb(85, 86, 86);
         left: 0%;
     }
 
