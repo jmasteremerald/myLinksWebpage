@@ -166,7 +166,7 @@ img:hover {
 }
 @keyframes wordSlide {
     0% {
-        transform : translatey(-200px);
+        transform : translatey(-208px);
     }
     18%, 7% {
         transform : translatey(-168px);
